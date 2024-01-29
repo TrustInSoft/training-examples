@@ -21,7 +21,7 @@
 // independent states before the call to strcpy; this is a complicated task, and
 // does not easily scale with larger buffers.
 //
-// An unexpected solutions comes if we use our own C implementation instead of
+// An unexpected solution comes if we use our own C implementation instead of
 // strcpy: the behavior is the same with 4 resulting cases, but this time we
 // can, with the help of SLevel and return strategy, keep those cases separated.
 
