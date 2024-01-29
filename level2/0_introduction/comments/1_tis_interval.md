@@ -4,10 +4,11 @@ use it, you have to include `tis_builtin.h`, and then you can call it like any C
 function.
 
 It takes a `min` and a `max` values, and returns a generalized value in the
-interval `[min .. max]` (note that this interval includes `max`). Because C does
-not allow overloads for each type, if you wanted to generalize, for example, an
-`unsigned long`, its bounds would not necessarily fit in the `int` parameters of
-`tis_interval()`, that's why `tis_interval()` has lots of siblings:
+interval `[min .. max]` (note that this interval includes both `min` and `max`).
+Because C does not allow overloads for each type, if you wanted to generalize,
+for example, an `unsigned long`, its bounds would not necessarily fit in the
+`int` parameters of `tis_interval()`, that's why `tis_interval()` has lots of
+siblings:
 * `tis_char_interval()`,
 * `tis_unsigned_char_interval()`,
 * `tis_short_interval()`,
