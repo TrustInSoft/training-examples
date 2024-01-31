@@ -10,5 +10,5 @@ int main(void) {
         buffer[i] = tis_nondet(tis_interval(-128, -1), tis_interval(1, 127));
     }
     buffer[sizeof buffer - 1] = 0;
-    size_t len = strlen(buffer);
+    size_t len = strlen(buffer); // We want 100 and only 100
 }
