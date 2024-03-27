@@ -9,5 +9,8 @@ int main(void) {
     while (rand() % 2 != 0)
         x++;
 
+    int *p = malloc(sizeof (int));
+    *p = x;
+
     return x;
 }
