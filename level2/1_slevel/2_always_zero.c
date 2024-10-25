@@ -1,4 +1,4 @@
-// tis-analyzer -val -val-profile analyzer 2_always_zero.c
+// tis gui 2_always_zero
 // How to remove the false alarm?
 #include <tis_builtin.h>
 

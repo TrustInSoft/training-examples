@@ -1,4 +1,4 @@
-// tis-analyzer -val -val-profile analyzer 3_loop.c 
+// tis gui 3_loop
 // How to remove the false alarms?
 #include <tis_builtin.h>
 
@@ -8,7 +8,7 @@ int main(void) {
     for (int i = 0; i < 30; i++) {
         if (tis_nondet(0, 1))
           a += 1 << i;
-        else                  
+        else
           b += 1 << i;
     }
     tis_show_each("", a, b);

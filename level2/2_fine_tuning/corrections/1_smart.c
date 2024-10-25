@@ -1,4 +1,4 @@
-// tis-analyzer -val -val-profile analyzer corrections/1_smart.c
+// corrections/1_smart.c
 //
 // The analyzer splits the states on any condition: this includes ACSL
 // assertions. We isolate a 0 state that gets eliminated, all other values are

@@ -1,0 +1,44 @@
+{
+  "common": {
+    "prefix_path": "..",
+    "val": true
+  },
+  "analyses": [
+    {
+      "name": "assembly1",
+      "files": [ "assembly1.c" ],
+      "val-profile": "analyzer"
+    },
+    {
+      "name": "assembly2",
+      "files": [ "assembly2.c" ],
+      "machdep": "x86_64",
+      "val-profile": "analyzer"
+    },
+    {
+      "name": "flexible_array_member",
+      "files": [ "flexible_array_member.c" ],
+      "val-profile": "interpreter"
+    },
+    {
+      "name": "register",
+      "files": [ "register.c" ],
+      "val-profile": "analyzer"
+    },
+    {
+      "name": "tis_address",
+      "files": [ "tis_address.c" ],
+      "val-profile": "analyzer"
+    },
+    {
+      "name": "variable_length_array",
+      "files": [ "variable_length_array.c" ],
+      "val-profile": "interpreter"
+    },
+    {
+      "name": "volatile",
+      "files": [ "volatile.c" ],
+      "val-profile": "analyzer"
+    }
+  ]
+}

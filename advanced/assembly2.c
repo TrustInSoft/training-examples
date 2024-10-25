@@ -1,5 +1,5 @@
 // make assembly2 && ./assembly2 && rm assembly2
-// tis-analyzer -val -val-profile analyzer assembly2.c -machdep x86_64 -gui
+// tis gui assembly2
 
 #include <stdint.h>
 #include <stdio.h>

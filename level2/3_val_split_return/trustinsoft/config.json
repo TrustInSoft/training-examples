@@ -1,0 +1,37 @@
+{
+  "common": {
+    "prefix_path": "..",
+    "val": true,
+    "val-profile": "analyzer"
+  },
+  "analyses": [
+    {
+      "name": "0_is_zero",
+      "files": [ "0_is_zero.c" ],
+      "slevel-function": {
+        "f": 10
+      }
+    },
+    {
+      "name": "1_full_vs_auto",
+      "files": [ "1_full_vs_auto.c" ],
+      "slevel": 100
+    },
+    {
+      "name": "1_full_vs_auto_split_full",
+      "files": [ "1_full_vs_auto.c" ],
+      "slevel": 100,
+      "val-split-return-function": {
+        "f": "full"
+      }
+    },
+    {
+      "name": "1_full_vs_auto_split_auto",
+      "files": [ "1_full_vs_auto.c" ],
+      "slevel": 100,
+      "val-split-return-function": {
+        "f": "auto"
+      }
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-// tis-analyzer -val -val-profile analyzer genstr2.c
+// tis gui genstr2
 // How to get rid of the false alarms?
 
 #include <stdio.h>

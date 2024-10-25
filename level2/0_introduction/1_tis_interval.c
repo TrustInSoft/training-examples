@@ -1,4 +1,6 @@
-// tis-analyzer -val -val-profile analyzer 1_tis_interval.c
+// {
+//   "val-profile": "analyzer"
+// }
 
 #include <stdio.h>
 #include <tis_builtin.h>

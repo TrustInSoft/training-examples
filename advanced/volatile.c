@@ -1,4 +1,4 @@
-// tis-analyzer -val -val-profile analyzer volatile.c
+// tis gui volatile
 //
 // Volatile variables are assumed to be always generalized, even after an
 // assignment. To control this behavior, use `-remove-volatile` or the Volatile

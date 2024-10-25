@@ -1,4 +1,4 @@
-// tis-analyzer -val -val-profile analyzer tis_address.c
+// tis gui tis_address
 // With pointer -> int conversions, the analyzer will try its best to keep the
 // value precise
 

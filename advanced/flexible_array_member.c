@@ -1,4 +1,4 @@
-// tis-analyzer -val -val-profile interpreter flexible_array_member.c
+// tis gui flexible_array_member
 //
 // TrustInSoft Analyzer supports the C99 flexible array members syntax and the
 // zero-length array GNU extension, by checking accesses against the base only.

@@ -1,4 +1,4 @@
-// tis-analyzer -val -val-profile interpreter signed_overflow.c
+// tis gui signed_overflow
 
 #include <limits.h>
 #include <stdio.h>

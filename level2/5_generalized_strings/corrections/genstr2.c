@@ -1,4 +1,8 @@
-// tis-analyzer -val -val-profile analyzer corrections/genstr2.c -slevel 4 -val-split-return-function my_strcpy:full
+// {
+//   ..,
+//   "slevel": 4,
+//   "val-split-return-function": { "my_strcpy":"full" }
+// }
 //
 // Similarly to strlen, strcpy has a TrustInSoft libC implementation that
 // considers all cases at once:

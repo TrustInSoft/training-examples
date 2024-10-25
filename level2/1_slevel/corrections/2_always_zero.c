@@ -1,4 +1,7 @@
-// tis-analyzer -val -val-profile analyzer corrections/2_always_zero.c -slevel 11
+// {
+//   ..,
+//   "slevel": 11
+// }
 //
 // Changes: tis_interval() -> tis_interval_split(), added SLevel.
 //

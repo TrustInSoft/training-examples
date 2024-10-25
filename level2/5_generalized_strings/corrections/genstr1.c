@@ -1,5 +1,3 @@
-// tis-analyzer -val -val-profile analyzer corrections/genstr1.c
-//
 // In C, a string is valid only if it is terminated by a '\0' character. By
 // generalizing all the bytes of the string, we simulate combinations of bytes
 // where there could be a zero anywhere, but also combinations where there is

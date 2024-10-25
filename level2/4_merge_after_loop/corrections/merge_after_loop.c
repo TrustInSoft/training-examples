@@ -1,4 +1,8 @@
-// tis-analyzer -val -val-profile analyzer corrections/merge_after_loop.c -slevel 6000 -val-slevel-merge-after-loop @all,-main
+// {
+//   ..,
+//   "slevel": 6000,
+//   "val-slevel-merge-after-loop": [ "@all", "-main" ]
+// }
 //
 // Changes: slevel, tis_interval() -> tis_interval_split(), merge after loop
 //

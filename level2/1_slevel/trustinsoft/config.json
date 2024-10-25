@@ -1,0 +1,25 @@
+{
+  "common": {
+    "prefix_path": "..",
+    "val": true,
+    "val-profile": "analyzer"
+  },
+  "analyses": [
+    {
+      "name": "0_is_zero",
+      "files": [ "0_is_zero.c" ]
+    },
+    {
+      "name": "1_init_buffer",
+      "files": [ "1_init_buffer.c" ]
+    },
+    {
+      "name": "2_always_zero",
+      "files": [ "2_always_zero.c" ]
+    },
+    {
+      "name": "3_loop",
+      "files": [ "3_loop.c" ]
+    }
+  ]
+}

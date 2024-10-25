@@ -1,4 +1,4 @@
-// tis-analyzer -val -val-profile interpreter out_of_bounds.c
+// tis gui out_of_bounds
 // This a 1-char typo, could easily be missed in a code review.
 
 #include <stdio.h>

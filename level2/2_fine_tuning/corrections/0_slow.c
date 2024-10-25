@@ -1,4 +1,4 @@
-// tis-analyzer -val -val-profile analyzer corrections/0_slow.c
+// corrections/0_slow.c
 //
 // Changes: tis_interval() -> tis_interval_split(), slevel ACSL directive
 //

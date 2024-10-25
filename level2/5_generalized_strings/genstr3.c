@@ -1,4 +1,4 @@
-// tis-analyzer -val -val-profile analyzer genstr3.c
+// tis gui genstr3
 // How to produce a properly generalized string with no unexpected '\0'?
 
 #include <string.h>

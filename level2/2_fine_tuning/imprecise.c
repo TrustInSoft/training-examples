@@ -1,4 +1,4 @@
-// tis-analyzer -val -val-profile analyzer imprecise.c
+// tis gui imprecise
 // Hot to get rid of the false alarm?
 
 #include <tis_builtin.h>

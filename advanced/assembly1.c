@@ -1,4 +1,4 @@
-// tis-analyzer -val -val-profile analyzer assembly1.c -gui
+// tis gui assembly1
 
 #include <stdio.h>
 

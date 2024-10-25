@@ -1,0 +1,28 @@
+{
+  "common": {
+    "prefix_path": "..",
+    "val": true
+  },
+  "analyses": [
+    {
+      "name": "0_unlikely_path",
+      "files": [ "0_unlikely_path.c" ],
+      "val-profile": "interpreter"
+    },
+    {
+      "name": "0_unlikely_path",
+      "files": [ "0_unlikely_path.c" ],
+      "val-profile": "analyzer"
+    },
+    {
+      "name": "1_tis_interval",
+      "files": [ "1_tis_interval.c" ],
+      "val-profile": "analyzer"
+    },
+    {
+      "name": "2_absolute",
+      "files": [ "2_absolute.c" ],
+      "val-profile": "analyzer"
+    }
+  ]
+}

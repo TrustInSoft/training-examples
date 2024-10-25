@@ -1,0 +1,21 @@
+{
+  "common": {
+    "prefix_path": "..",
+    "val": true,
+    "val-profile": "analyzer"
+  },
+  "analyses": [
+    {
+      "name": "genstr1",
+      "files": [ "genstr1.c" ]
+    },
+    {
+      "name": "genstr2",
+      "files": [ "genstr2.c" ]
+    },
+    {
+      "name": "genstr3",
+      "files": [ "genstr3.c" ]
+    }
+  ]
+}

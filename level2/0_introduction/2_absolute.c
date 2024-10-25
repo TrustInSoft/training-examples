@@ -1,4 +1,6 @@
-// tis-analyzer -val -val-profile analyzer 2_absolute.c
+// {
+//   "val-profile": "analyzer"
+// }
 
 #include <limits.h>
 #include <tis_builtin.h>

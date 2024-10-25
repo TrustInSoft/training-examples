@@ -1,0 +1,13 @@
+{
+  "common": {
+    "prefix_path": "..",
+    "val": true,
+    "val-profile": "analyzer"
+  },
+  "analyses": [
+    {
+      "name": "imprecise",
+      "files": [ "imprecise.c" ]
+    }
+  ]
+}

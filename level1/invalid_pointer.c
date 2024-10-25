@@ -1,4 +1,4 @@
-// tis-analyzer -val -val-profile interpreter invalid_pointer.c
+// tis gui invalid_pointer
 
 #include <stddef.h>
 #include <stdio.h>

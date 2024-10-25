@@ -1,4 +1,7 @@
-// tis-analyzer -val -val-profile analyzer 0_is_zero.c -slevel 2
+// {
+//   ..,
+//   "slevel": 2
+// }
 //
 // C code structures create multiple states naturally, raising the SLevel limit
 // allows these states to stay separated.

@@ -1,4 +1,4 @@
-// tis-analyzer -val -val-profile analyzer merge_after_loop.c
+// tis gui merge_after_loop
 // How to get rid of the false alarm?
 
 #include <string.h>

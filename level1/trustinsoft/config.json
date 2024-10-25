@@ -1,0 +1,21 @@
+{
+  "common": {
+    "prefix_path": "..",
+    "val": true,
+    "val-profile": "interpreter"
+  },
+  "analyses": [
+    {
+      "name": "invalid_pointer",
+      "files": [ "invalid_pointer.c" ]
+    },
+    {
+      "name": "out_of_bounds",
+      "files": [ "out_of_bounds.c" ]
+    },
+    {
+      "name": "signed_overflow",
+      "files": [ "signed_overflow.c" ]
+    }
+  ]
+}

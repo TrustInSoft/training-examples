@@ -1,4 +1,4 @@
-// tis-analyzer -val -val-profile analyzer 1_init_buffer.c
+// tis gui 1_init_buffer
 // How to remove the false alarm?
 
 #include <stdio.h>

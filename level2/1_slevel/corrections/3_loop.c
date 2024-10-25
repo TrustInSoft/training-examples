@@ -1,4 +1,7 @@
-// tis-analyzer -val -val-profile analyzer 3_loop.c -slevel 60
+// {
+//   ..,
+//   "slevel": 60
+// }
 //
 // `int tis_nondet(int a, int b)` is a built-in function of the analyzer. It
 // takes in two values, and returns two states: one where the return value is

@@ -1,5 +1,6 @@
-// tis-analyzer -val -val-profile interpreter 0_unlikely_path.c
-// tis-analyzer -val -val-profile analyzer 0_unlikely_path.c
+// {
+//   "val-profile": "analyzer"
+// }
 
 #include <stdlib.h>
 

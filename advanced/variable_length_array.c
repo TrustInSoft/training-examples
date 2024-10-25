@@ -1,4 +1,4 @@
-// tis-analyzer -val -val-profile interpreter variable_length_array.c
+// tis gui variable_length_array
 
 void f(int size) {
     short v[size];

@@ -1,4 +1,4 @@
-// tis-analyzer -val -val-profile analyzer corrections/2_smarter.c
+// corrections/2_smarter.c
 //
 // The initial issue was about removing a value from the middle of an interval,
 // but the analyzer is capable of removing a value from the bounds of an
