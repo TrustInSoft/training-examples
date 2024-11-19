@@ -13,7 +13,7 @@
 // Then, we have 101 precise states, each with a precise length and buffer, up
 // to the loop, but still imprecise inside of the loop. The red bar in the GUI
 // states "Merged loop": by default, the analyzer merges all states, once at the
-// entrace of a loop, once at the exit. We disable merging.
+// entrance of a loop, once at the exit. We disable merging.
 //
 // Finally, the slevel gets reached. The analysis needs slevel for 1 turn of the
 // loop in the len==1 state, 2 turns of the loop in the len==2 state, ... up to
