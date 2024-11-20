@@ -2,10 +2,15 @@
 // How to remove the false alarm?
 
 #include <stdio.h>
+#include <stdlib.h>
+
+#define BUFFER_SIZE 42
 
 int main(void) {
-    char buffer[42];
-    for (int i = 0; i < sizeof buffer; i++) {
+    char *buffer = malloc(BUFFER_SIZE);
+    if (!buffer) return 1;
+
+    for (int i = 0; i < BUFFER_SIZE; i++) {
         buffer[i] = i;
     }
     printf("%d\n", buffer[10]);
